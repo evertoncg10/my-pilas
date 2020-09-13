@@ -22,3 +22,42 @@ header img {
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
+#planos {
+  padding: 80px 0;
+}
+
+article {
+  border: 1px solid #95a4a5;
+  width: 370px;
+}
+
+article > h2 {
+  background-color: #95a4a5;
+  color: white;
+  text-align: center;
+  line-height: 2.5;
+  margin: 0;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+article > div {
+  text-align: center;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+article > ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+article > ul > li {
+  text-align: center;
+}
+
+article > footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
