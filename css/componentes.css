@@ -4,7 +4,6 @@
 .plano {
   position: relative;
   border: 1px solid #95a4a5;
-  margin-bottom: 40px;
   font-size: 1.4rem;
 }
 
@@ -50,6 +49,12 @@
 .plano__rodape {
   text-align: center;
   padding-bottom: 20px;
+}
+
+@media (max-width: 749px) {
+  .plano:not(.ultimo-plano) {
+    margin-bottom: 40px;
+  }
 }
 
 /*--------------------------*\
