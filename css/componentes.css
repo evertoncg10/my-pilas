@@ -234,18 +234,20 @@
   .menu {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -250px;
     bottom: 0;
 
-    display: none;
     width: 200px;
     padding: 20px;
     border-right: 1px solid #eee;
     background-color: #fbfbfb;
+
+    overflow-y: auto;
+    transition: all 0.2s ease-out;
   }
 
   .menu--exibindo {
-    display: block;
+    left: 0px;
   }
 
   .menu__item {
