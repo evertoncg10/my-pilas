@@ -13,10 +13,6 @@
   z-index: 999;
 }
 
-/* .layout-cabecalho img {
-  margin-top: 12px;
-} */
-
 .layout-planos {
   padding: 80px 0;
 }
@@ -39,4 +35,13 @@
 
   color: #fff;
   text-align: center;
+}
+
+.layout-assinatura {
+  padding: 40px 0;
+}
+
+.layout-botao-assine {
+  text-align: center;
+  margin-top: 40px;
 }
