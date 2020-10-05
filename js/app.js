@@ -17,7 +17,7 @@ alternador.onclick = function () {
 // menuItens = menuItens.filter((item) => item.className !== "botao botao--login");
 
 // [href^="#"] - para resgatar somente os links internos.
-const menuItens = document.querySelectorAll('.menu__item a[href^="#"]');
+const menuItens = document.querySelectorAll('.navegacao a[href^="#"]');
 
 menuItens.forEach((item) => {
   item.addEventListener("click", scrollToIdOnclick);
@@ -30,7 +30,10 @@ function scrollToIdOnclick(event) {
 }
 
 function getScrollToByHref(element) {
-  const id = element.getAttribute("href");
+  let id = "#chamada";
+  if (element.id !== "logo") {
+    id = element.getAttribute("href");
+  }
   return document.querySelector(id).offsetTop;
 }
 
