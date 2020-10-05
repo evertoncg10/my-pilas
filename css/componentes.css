@@ -5,6 +5,7 @@
   position: relative;
   border: 1px solid #95a4a5;
   font-size: 1.4rem;
+  border-radius: 5px;
 }
 
 .plano--mais-popular::after {
@@ -13,6 +14,7 @@
   left: -10px;
   padding: 0 10px;
   background-color: #c20303;
+  border-radius: 3px;
   color: white;
   font-size: 0.8em;
   line-height: 2.5;
@@ -76,12 +78,13 @@
 .botao:focus {
   background-color: #aaa;
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .botao--assinar,
 .botao--login {
   background-color: #127d00;
+  border-radius: 5px;
 }
 
 .botao--assinar:hover,
@@ -99,7 +102,6 @@
 .botao--principal:hover,
 .botao--principal:focus {
   background-color: #003b6a;
-  text-decoration: none;
 }
 
 /*--------------------------*\
